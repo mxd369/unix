@@ -1,0 +1,33 @@
+8.1
+8.2
+8.3 
+8.4
+8.5
+8.6
+8.7
+8.8
+8.9
+8.10
+8.11
+8.12
+8.13
+8.14
+8.15
+8.16
+8.17
+8.18
+
+Summary
+A thorough understanding of the UNIX System’s process control is essential for
+advanced programming. There are only a few functions to master: fork, the exec
+family, _exit, wait, and waitpid. These primitives are used in many applications.
+The fork function also gave us an opportunity to look at race conditions.
+Our examination of the system function and process accounting gave us another
+look at all these process control functions. We also looked at another variation of the
+
+exec functions: interpreter files and how they operate. An understanding of the
+various user IDs and group IDs that are provided — real, effective, and saved—is
+critical to writing safe set-user-ID programs.
+Given an understanding of a single process and its children, in the next chapter we
+examine the relationship of a process to other processes — sessions and job control. We
+then complete our discussion of processes in Chapter 10 when we describe signals.
